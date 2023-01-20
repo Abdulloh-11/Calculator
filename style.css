@@ -1,0 +1,67 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+.container{
+    max-width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+}
+.card{
+    width: 500px;
+    border: none;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+
+
+.display{
+    background-color: rgb(19, 23, 68);
+    text-align: right;
+    color: white;
+    padding: 10px 20px 10px 0;
+    font-size: 32px;
+    height: 100px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(26, 63, 63);
+    padding: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+
+}
+
+.button{
+    width: 100px;
+    background-color: rgb(142, 140, 131);
+    text-align: center;
+    border-radius: 5px;
+   padding: 10px 10px;
+    font-size: 28px;
+    font-weight: 700;
+    
+}
+.button:active{
+    background-color: rgba(142, 140, 131, 0.594);
+}
+.bottom_tag{
+    width: 120px;
+}
+
+.rest{
+    background-color: rgb(55, 55, 111);
+    color: white;
+   
+
+}
+
+.equal{
+    background-color: rgba(216, 69, 69, 0.751);
+    color: white;
+    
+
+}
